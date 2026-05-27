@@ -96,6 +96,13 @@ C. 准备上线    →  逐项过 App Store 审核清单，确保顺利过审
         │        │ 设计问题 → 设计审查        │
         ▼        └───────────────────────────┘
    ┌──────────┐
+   │ A2.5 AI  │
+   │ 设计协作  │  ← 新增：意图驱动、多方案、虚拟团队
+   │ 方法论    │
+   └────┬─────┘
+        │
+        ▼
+   ┌──────────┐
    │ A3 产品  │
    │ 逻辑文档 │
    └────┬─────┘
@@ -143,6 +150,7 @@ ios-ai-dev/
 ├── SKILL.md                      # 主流程编排
 ├── prompts/
 │   ├── product-design.md         # 产品设计框架（A2 调用）
+│   ├── ai-design-collab.md       # AI 设计协作方法论（A2.5 调用）
 │   ├── prompt-architecture.md    # AI Prompt 架构模板（A6 调用）
 │   └── claude-md-template.md     # CLAUDE.md 标准模板（A1 调用）
 └── refs/
